@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/recurrence.iml" filepath="$PROJECT_DIR$/recurrence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TowersOfHanoi.iml" filepath="$PROJECT_DIR$/TowersOfHanoi.iml" />
     </modules>
   </component>
 </project>
