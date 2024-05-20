@@ -50,12 +50,15 @@ public class Tower<E extends Comparable<E>> {
 
         @Override
         public String toString() {
-            return "add recursive toString implementation here!";
+            if (next == null)
+                return element.toString();
+            return next.toString() + "-" + element.toString();
         }
 
         public int size() {
-            return 0;
-            // add recursive size implementation here!
+            if (next == null)
+                return 1;
+            return 1 + next.size();
         }
     }
 
