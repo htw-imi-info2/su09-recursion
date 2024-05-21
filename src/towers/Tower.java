@@ -39,25 +39,6 @@ public class Tower<E extends Comparable<E>> {
         return top.size();
     }
 
-    class Node<E> {
-        private E element;
-        private Node<E> next;
-
-        Node(E element, Node<E> next) {
-            this.element = element;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            return "add recursive toString implementation here!";
-        }
-
-        public int size() {
-            return 0;
-            // add recursive size implementation here!
-        }
-    }
 
 
 }

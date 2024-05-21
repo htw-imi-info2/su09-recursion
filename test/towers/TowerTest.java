@@ -21,6 +21,7 @@ class TowerTest {
         assertThrows(EmptyTowerException.class, () -> tower.pop());
     }
 
+
     @Test
     public void pushPop3() throws EmptyTowerException, TowerOrderException {
         Tower<Integer> tower = new Tower<>();
